@@ -5,6 +5,7 @@ class Varasto:
         else:
             # virheellinen, nollataan
             self.tilavuus = 1 #0.0
+            # muutos tiedostoon
 
         if alku_saldo < 0.0:
             # virheellinen, nollataan

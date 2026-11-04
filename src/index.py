@@ -51,7 +51,11 @@ def main():
     print("mehua.otaVarastosta(-32.9)")
     saatiin = mehua.ota_varastosta(-32.9)
     print(f"saatiin {saatiin}")
-    print(f"Mehuvarasto: {mehua}")
+    for i in range(0,1):
+        while True:
+            if 1==1:
+                print(f"Mehuvarasto: {mehua}")
+                return
 
 
 if __name__ == "__main__":
